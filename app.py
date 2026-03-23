@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 
 app = Flask(__name__)
-app.secret_key = "changeme-secret-key"
+app.secret_key = "14159pi2654"
 
 APP_TITLE = "Sidequest"
 
